@@ -7,7 +7,7 @@ const SelectAnatomy = () => {
       <Host name="select">
         <Slot name="button">
           <Part name="button type=selectlist">
-            <Part name="selectedvalue">Currently selected value</Part>
+            <Part name="selectedoption">Currently selected option</Part>
           </Part>
         </Slot>
         <Slot name="listbox">
